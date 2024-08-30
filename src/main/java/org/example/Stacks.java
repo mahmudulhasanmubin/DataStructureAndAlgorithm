@@ -1,4 +1,5 @@
 package org.example;
+//1
 
 import java.util.Stack;
 
@@ -32,6 +33,7 @@ public class Stacks {
 
         Stack<String> stack = new Stack<String>();
 
+        //0
 //        System.out.println(stack.empty());//before adding anything it will print "true".
 
         stack.push("a");//first store/bottom element
@@ -47,26 +49,46 @@ public class Stacks {
 //        System.out.println(stack.empty());//now it will print "false".
 
         //2.
-        stack.pop();//first it will remove "h"(last element)
-        stack.pop();//it will remove "g"(2nd last element)
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();//remove "a" (bottom element)
+//        stack.pop();//first it will remove "h"(last(top) element)
+//        stack.pop();//it will remove "g"(2nd last element)
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();//remove "a" (bottom element)
 
         //3.
 //        stack.pop();//EmptyStackException will create, cause there are only 8 elements, but we are trying to remove 9 element
 
         //3.1.
-        System.out.println(stack);
+//        System.out.println(stack);
 
-        String myFavletter = stack.pop();
-        System.out.println(myFavletter);
+        //4
+//        String myFavletter = stack.pop(); // h(top element) will be removed from the stack.
+//        System.out.println(stack);
+//        System.out.println(myFavletter);
 
-        //not ended! I'm watching Bro Code YouTube channel.
-        //need sleep now. 9:36am(30/08/24)
+        //5
+//        System.out.println(stack.peek()); // h(top element) will be printed and element won't be removed from the stack.
+//        System.out.println(stack);
+
+        //6
+//        System.out.println(stack.search("h")); //if I put h(top element) or b(2nd last element), it will show me where the position is!
+//        System.out.println(stack.search("z")); //it will print -1. cause there is no "z" named element.
+
+        //7
+//        for (int i = 0; i<100000000; i++){
+//            stack.push("k");
+//        }//OutOfMemoryError will be there due to java heap space
+
+        //uses of stacks?
+        //1. undo/redo features in text editors
+        //2. moving back/forward through browser history
+        //3. backtracking algorithms (maze, file directories)
+        //4. calling functions (call stack)
+
+
 
 
 
