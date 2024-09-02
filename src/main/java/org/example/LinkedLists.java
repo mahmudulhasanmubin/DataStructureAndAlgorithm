@@ -61,13 +61,35 @@ public class LinkedLists {
         //we can treat LinkedList as Stack and Queue both.
 
         //3
-        linkedList.add("j");//this element will be added to the LinkedList.
+        linkedList.add(3,"j");//this element will be added to the LinkedList.
         linkedList.remove("c");//this element will be removed and replaced by "j".
+        //add(), remove() are the method of LinkedList.
         //4
         System.out.println(linkedList.indexOf("d"));//search for "d" in the list.
 
+        //5
+        System.out.println(linkedList.peekFirst());//print first element from the list.
+        System.out.println(linkedList.peekLast());//print last element from the list.
+
+        //6
+        linkedList.addFirst("Paul");//without removing the first element, we are adding this element in the list(first position). means we are increasing the list size from head.
+        linkedList.addLast("Dia");//without removing the last element, we are adding this element in the list(last position). means we are increasing the list size from tail.
+
+        //7
+        String first = linkedList.removeFirst();//remove first element."Paul" removed.
+        String last = linkedList.removeLast();//remove last element. "Dia" removed.
+
         //1; 2; 3
         System.out.println(linkedList);
+
+        //In ArrayList, there are lots of problems to add and remove element in the list.
+        //if we want to add an element middle of the list, the element will be overwritten.
+
+
+
+
+
+
     }
 
 
