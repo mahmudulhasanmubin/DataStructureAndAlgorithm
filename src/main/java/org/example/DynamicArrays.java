@@ -120,7 +120,7 @@ public class DynamicArrays {
         return string;
     }
 
-    public static void main(String[] args) {
+    public void run() {
 
         ArrayList<String> arrayList = new ArrayList<String>();
 

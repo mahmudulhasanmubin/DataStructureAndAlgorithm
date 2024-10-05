@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class PriorityQueues {
-    public static void main(String[] args) {
+    public void run() {
 
         //Priority Queue = A FIFO data structure that serves elements
         //                  with the higher priorities first

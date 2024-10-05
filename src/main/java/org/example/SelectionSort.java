@@ -10,7 +10,7 @@ public class SelectionSort {
     //                  small data set = okay
     //                  large data set = BAD
 
-    public static void main(String[] args) {
+    public void run() {
         int [] array = {3, 8, 1, 56, 5, 3, 7};
 
         selectionSort(array);

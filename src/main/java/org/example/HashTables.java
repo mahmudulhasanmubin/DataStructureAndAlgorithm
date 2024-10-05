@@ -24,7 +24,7 @@ public class HashTables {
     //Runtime complex city: Best Case 0(1)
 //                          Worst Case 0(1)
 
-    public static void main(String[] args) {
+    public void run() {
         //1
         Hashtable<Integer, String> table = new Hashtable<>(10);
         table.put(100, "Spongebob");
@@ -62,6 +62,9 @@ public class HashTables {
             System.out.println(key + ": " + tables.get(key));
             //3
             System.out.println(key.hashCode() + "\t" +key + ": " + tables.get(key));
+
+            //**
+            System.out.println(key.hashCode() % 23 + "\t" +key + ": " + tables.get(key));//memory address modulus
 
         }
     }

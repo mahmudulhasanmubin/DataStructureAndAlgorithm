@@ -21,7 +21,7 @@ public class Recursion {
     //recursion: call itself, parameter values{ walk(int steps) }, converge towards base case, base case = true, less code, more memory, slower
     //iteration: uses loops, control index { int steps = 0) }, move toward value in condition, index satisfies condition, more code, less memory, faster
 
-    public static void main(String[] args) {
+    public void run() {
 
         walk(5);
 

@@ -12,7 +12,7 @@ public class BinarySearch {
     //                      value = "k";
     //                      index = ?;
 
-    public static void main(String[] args) {
+    public void run() {
 
         int array[] = new int[100];
         int target = 42;

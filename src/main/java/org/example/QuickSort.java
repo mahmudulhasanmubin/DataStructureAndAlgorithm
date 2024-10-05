@@ -1,6 +1,8 @@
 package org.example;
 //16
 
+import java.util.Arrays;
+
 public class QuickSort {
 
     //Quick Sort = moves smaller elements to left of a pivot.
@@ -15,16 +17,14 @@ public class QuickSort {
 
 
 
-    public static void main(String[] args) {
-
+    public void run() {
         int[] array = {8, 2, 5, 3, 9, 4, 7, 6, 1};
+        System.out.println("Initial Array: " + Arrays.toString(array));
 
         quickSort(array, 0, array.length -1);
+        System.out.println("Sorted Array: "+ Arrays.toString(array));
 
-        for (int i : array){
-            System.out.print(i + " ");
-        }
-
+        System.out.println("Sorted By QuickSort");
     }
 
     private static void quickSort(int[] array, int start, int end) {

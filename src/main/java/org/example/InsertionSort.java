@@ -12,7 +12,7 @@ public class InsertionSort {
     //                  Less steps than Bubble Sort
     //                  Best case is 0(n) compared to Selection Sort 0(n^2)
 
-    public static void main(String[] args) {
+    public void run() {
         int[] array = {4, 5, 6, 3, 2, 1, 9, 15, 7};
 
         insertionSort(array);

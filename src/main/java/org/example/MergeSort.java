@@ -6,7 +6,7 @@ public class MergeSort {
     //merge sort = recursively divide array in 2, sort, re-combine
     //run-time complexity = 0(n log n)
     //space complexity = 0(n)
-    public static void main(String[] args) {
+    public void run() {
 
         int[] array = {8, 2, 5, 3, 4, 7, 6,2};
 

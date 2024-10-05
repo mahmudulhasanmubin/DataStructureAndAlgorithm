@@ -14,7 +14,7 @@ public class LinearSearch {
     //                  Fast for searches of small to medium data sets
     //                  Doesn't need to sorted
     //                  Useful for data structure that do not have random access (LinkedList)
-    public static void main(String[] args) {
+    public void run() {
         int[] array = {1,2,3,4,5,6,7,8,9,10};
 
         int index = linearSearch(array, 8);

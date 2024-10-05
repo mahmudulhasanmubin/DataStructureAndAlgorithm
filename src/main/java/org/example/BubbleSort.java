@@ -10,7 +10,7 @@ public class BubbleSort {
     //              small data set = okay-ish
     //              large data set = BAD (please don't use)
 
-    public static void main(String[] args) {
+    public void run() {
         int[] array ={5, 63, 28, 927, 64654, 45, 457};
 
         bubbleSort(array);

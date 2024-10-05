@@ -25,16 +25,22 @@ public class Stacks {
 
     //******************************************************************************
 
-    public static void main(String[] args) {
+    public void run() {
         //Stack =   LIFO data structure. Last-In--First-Out
         //          stores objects into a sort of "vertical tower"
         //          push() to add to top
         //          pop() to remove from the top
 
+        //push()    -- add elements to top
+        //pop()     -- remove elements from top
+        //peek()    -- top element print
+        //search()  -- search element and their position
+        //empty()   -- check stack empty or not
+
         Stack<String> stack = new Stack<String>();
 
         //0
-//        System.out.println(stack.empty());//before adding anything it will print "true".
+        System.out.println(stack.empty());//before adding anything it will print "true".
 
         stack.push("a");//first store/bottom element
         stack.push("b");
@@ -44,6 +50,16 @@ public class Stacks {
         stack.push("f");
         stack.push("g");
         stack.push("h");//top element
+
+        //two ways to print stack
+        //One is by using for loop
+        //Another one is by sout(stack)
+
+//        for (String s : stack) {
+//            System.out.println(s);
+//        }
+//        System.out.println(stack);
+
 
         //1.
 //        System.out.println(stack.empty());//now it will print "false".
@@ -62,7 +78,7 @@ public class Stacks {
 //        stack.pop();//EmptyStackException will create, cause there are only 8 elements, but we are trying to remove 9 element
 
         //3.1.
-//        System.out.println(stack);
+        System.out.println(stack);
 
         //4
 //        String myFavletter = stack.pop(); // h(top element) will be removed from the stack.
